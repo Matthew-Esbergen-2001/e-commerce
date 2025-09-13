@@ -5,9 +5,7 @@ type forgetemail={
    
 }
 
-import getMyToken from "@/utilities/getMyToken";
 
-import { getTokenAuth } from "@/utlitis/getTokenAuth"
 export async function verifyResetCode({resetCode}:forgetemail){
   
   
